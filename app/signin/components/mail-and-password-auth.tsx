@@ -98,6 +98,7 @@ export default function MailAndPasswordAuth({ isInvite, isEmailSetup, allowRegis
       <div className="mb-3">
         <label htmlFor="email" className="my-2 text-text-secondary system-md-semibold">
           {t('email', { ns: 'login' })}
+          hello world
         </label>
         <div className="mt-1">
           <Input
