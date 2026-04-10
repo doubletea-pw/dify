@@ -30,7 +30,7 @@
     "analyze-component": "node ./scripts/analyze-component.js",
     "build": "next build",
     "build:vinext": "vinext build",
-    "dev": "next dev --turbo",
+    "dev": "next dev",
     "dev:all": "node ./scripts/dev-with-proxy.mjs",
     "dev:inspect": "next dev --inspect",
     "dev:proxy": "tsx ./scripts/dev-hono-proxy.ts",

@@ -9,14 +9,19 @@ describe('dev proxy server', () => {
   // Scenario: Hono proxy targets should be read directly from env.
   it('should resolve Hono proxy targets from env', () => {
     // Arrange
+
+    // 'http://aic.yoseok.cn/console/api',
+    // 'http://aic.yoseok.cn/api',
     const targets = resolveDevProxyTargets({
-      HONO_CONSOLE_API_PROXY_TARGET: 'https://aic.yoseok.cn/console/api',
-      HONO_PUBLIC_API_PROXY_TARGET: 'https://aic.yoseok.cn/api',
+      HONO_CONSOLE_API_PROXY_TARGET: 'http://localhost:3000/console/api',
+      HONO_PUBLIC_API_PROXY_TARGET: 'http://localhost:3000/api',
     })
 
     // Assert
-    expect(targets.consoleApiTarget).toBe('https://aic.yoseok.cn/console/api')
-    expect(targets.publicApiTarget).toBe('https://aic.yoseok.cn/api')
+    // http://aic.yoseok.cn/console/api
+    // http://aic.yoseok.cn/api
+    expect(targets.consoleApiTarget).toBe('http://localhost:3000/console/api')
+    expect(targets.publicApiTarget).toBe('http://localhost:3000/api')
   })
 
   // Scenario: target paths should not be duplicated when the incoming route already includes them.

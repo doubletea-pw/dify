@@ -64,6 +64,16 @@ export default defineConfig(({ mode }) => {
             exclude: ['@tanstack/react-query'],
           },
           server: {
+            proxy: {
+              '/console': {
+                target: 'http://aic.yoseok.cn',
+                changeOrigin: true,
+              },
+              '/api': {
+                target: 'http://aic.yoseok.cn',
+                changeOrigin: true,
+              },
+            },
             port: 3000,
           },
           ssr: {
