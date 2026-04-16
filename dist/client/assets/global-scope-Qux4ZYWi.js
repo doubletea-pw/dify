@@ -1,0 +1,1 @@
+var e=function(){var e=`ampIntegrationContext`;if(typeof globalThis<`u`&&globalThis[e]!==void 0)return globalThis[e];if(typeof globalThis<`u`)return globalThis;if(typeof window<`u`)return window;if(typeof self<`u`)return self;if(typeof global<`u`)return global};export{e as t};

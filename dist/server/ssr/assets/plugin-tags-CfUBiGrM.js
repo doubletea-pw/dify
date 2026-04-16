@@ -1,0 +1,27 @@
+//#region i18n/ko-KR/plugin-tags.json
+var allTags = "모든 태그";
+var searchTags = "검색 태그";
+var plugin_tags_default = {
+	allTags,
+	searchTags,
+	"tags.agent": "에이전트",
+	"tags.business": "사업",
+	"tags.design": "디자인",
+	"tags.education": "교육",
+	"tags.entertainment": "오락",
+	"tags.finance": "금융",
+	"tags.image": "이미지",
+	"tags.medical": "내과의",
+	"tags.news": "소식",
+	"tags.other": "다른",
+	"tags.productivity": "생산력",
+	"tags.rag": "넝마",
+	"tags.search": "검색",
+	"tags.social": "사회적인",
+	"tags.travel": "여행하다",
+	"tags.utilities": "유틸리티",
+	"tags.videos": "동영상",
+	"tags.weather": "날씨"
+};
+//#endregion
+export { allTags, plugin_tags_default as default, searchTags };

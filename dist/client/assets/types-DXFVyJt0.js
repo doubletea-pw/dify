@@ -1,0 +1,1 @@
+var e=function(e){return e.python3=`python3`,e.javascript=`javascript`,e.json=`json`,e}({});export{e as t};

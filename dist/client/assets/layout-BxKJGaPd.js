@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`Ciutkan Bilah Sisi`,"sidebar.expandSidebar":`Perluas Bilah Sisi`};export{e as default};

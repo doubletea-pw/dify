@@ -1,0 +1,1 @@
+import{ot as e}from"./index-CDJ7_sRu.js";var t=(t,n)=>t?n.mode===e.WORKFLOW||n.mode===e.ADVANCED_CHAT?`/app/${n.id}/workflow`:`/app/${n.id}/configuration`:`/app/${n.id}/overview`,n=(e,n,r)=>{r(t(e,n))};export{t as n,n as t};

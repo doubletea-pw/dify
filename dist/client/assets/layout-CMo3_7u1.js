@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`جمع کردن نوار کناری`,"sidebar.expandSidebar":`نوار کناری را گسترش دهید`};export{e as default};

@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`Kenar Çubuğunu Daralt`,"sidebar.expandSidebar":`Kenar Çubuğunu Genişlet`};export{e as default};

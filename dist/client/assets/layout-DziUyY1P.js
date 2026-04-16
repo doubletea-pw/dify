@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`Contraer barra lateral`,"sidebar.expandSidebar":`Expandir barra lateral`};export{e as default};

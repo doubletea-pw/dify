@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`طي الشريط الجانبي`,"sidebar.expandSidebar":`توسيع الشريط الجانبي`};export{e as default};

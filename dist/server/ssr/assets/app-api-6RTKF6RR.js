@@ -1,0 +1,88 @@
+//#region i18n/th-TH/app-api.json
+var apiKey = "คีย์ API";
+var apiServer = "เซิร์ฟเวอร์ API";
+var copied = "คัด ลอก";
+var copy = "ลอก";
+var disabled = "พิการ";
+var loading = "การโหลด";
+var never = "ไม่เคย";
+var ok = "ให้บริการ";
+var pause = "หยุด";
+var play = "เล่น";
+var playing = "เล่น";
+var regenerate = "สร้างใหม่";
+var status = "สถานะ";
+var app_api_default = {
+	"actionMsg.deleteConfirmTips": "การดําเนินการนี้ไม่สามารถยกเลิกได้",
+	"actionMsg.deleteConfirmTitle": "ลบคีย์ลับนี้?",
+	"actionMsg.ok": "ตกลง, ได้",
+	apiKey,
+	"apiKeyModal.apiSecretKey": "คีย์ลับ API",
+	"apiKeyModal.apiSecretKeyTips": "เพื่อป้องกันการละเมิด API ให้ปกป้องคีย์ API ของคุณ หลีกเลี่ยงการใช้เป็นข้อความธรรมดาในโค้ดส่วนหน้า :)",
+	"apiKeyModal.createNewSecretKey": "สร้างคีย์ลับใหม่",
+	"apiKeyModal.created": "สร้าง",
+	"apiKeyModal.generateTips": "เก็บกุญแจนี้ไว้ในที่ปลอดภัยและเข้าถึงได้",
+	"apiKeyModal.lastUsed": "ใช้ล่าสุด",
+	"apiKeyModal.secretKey": "กุญแจลับ",
+	apiServer,
+	"chatMode.blocking": "ประเภทการบล็อก รอให้การดําเนินการเสร็จสมบูรณ์และส่งคืนผลลัพธ์ (คําขออาจถูกขัดจังหวะหากกระบวนการใช้เวลานาน)",
+	"chatMode.chatMsgHistoryApi": "รับข้อความประวัติการแชท",
+	"chatMode.chatMsgHistoryApiTip": "หน้าแรกส่งคืนแถบ 'ขีดจํากัด' ล่าสุด ซึ่งอยู่ในลําดับที่กลับกัน",
+	"chatMode.chatMsgHistoryConversationIdTip": "รหัสการสนทนา",
+	"chatMode.chatMsgHistoryFirstId": "ID ของเรกคอร์ดแชทแรกบนหน้าปัจจุบัน ค่าเริ่มต้นคือไม่มี",
+	"chatMode.chatMsgHistoryLimit": "จํานวนแชทที่ส่งคืนในคําขอเดียว",
+	"chatMode.conversationIdTip": "(ไม่บังคับ) รหัสการสนทนา: เว้นว่างไว้สําหรับการสนทนาครั้งแรก ส่ง conversation_id จากบริบทเพื่อสนทนาต่อ",
+	"chatMode.conversationRenamingApi": "การเปลี่ยนชื่อการสนทนา",
+	"chatMode.conversationRenamingApiTip": "เปลี่ยนชื่อการสนทนา ชื่อจะแสดงในอินเทอร์เฟซไคลเอ็นต์แบบหลายเซสชัน",
+	"chatMode.conversationRenamingNameTip": "ชื่อใหม่",
+	"chatMode.conversationsListApi": "รับรายการการสนทนา",
+	"chatMode.conversationsListApiTip": "รับรายการเซสชันของผู้ใช้ปัจจุบัน โดยค่าเริ่มต้น 20 เซสชันล่าสุดจะถูกส่งคืน",
+	"chatMode.conversationsListFirstIdTip": "รหัสของเรกคอร์ดสุดท้ายบนหน้าปัจจุบัน ค่าเริ่มต้นไม่มี",
+	"chatMode.conversationsListLimitTip": "จํานวนแชทที่ส่งคืนในคําขอเดียว",
+	"chatMode.createChatApi": "สร้างข้อความแชท",
+	"chatMode.createChatApiTip": "สร้างข้อความการสนทนาใหม่หรือดําเนินการต่อในการสนทนาที่มีอยู่",
+	"chatMode.info": "สําหรับแอปการสนทนาอเนกประสงค์ที่ใช้รูปแบบ Q&A ให้เรียก API ข้อความแชทเพื่อเริ่มการสนทนา รักษาการสนทนาอย่างต่อเนื่องโดยส่ง conversation_id ที่ส่งคืน พารามิเตอร์การตอบสนองและเทมเพลตขึ้นอยู่กับ Dify Prompt Eng การตั้งค่า",
+	"chatMode.inputsTips": "(ไม่บังคับ) ระบุฟิลด์อินพุตของผู้ใช้เป็นคู่คีย์-ค่า ซึ่งสอดคล้องกับตัวแปรใน Prompt Eng คีย์คือชื่อตัวแปร ค่าคือค่าพารามิเตอร์ ถ้าชนิดฟิลด์เป็น เลือก ค่าที่ส่งจะต้องเป็นหนึ่งในตัวเลือกที่ตั้งไว้ล่วงหน้า",
+	"chatMode.messageFeedbackApi": "ข้อความความคิดเห็นของผู้ใช้เทอร์มินัล เช่น",
+	"chatMode.messageFeedbackApiTip": "ให้คะแนนข้อความที่ได้รับในนามของผู้ใช้ปลายทางที่มีการชอบหรือไม่ชอบ ข้อมูลนี้สามารถมองเห็นได้ในหน้า Logs & Annotations และใช้สําหรับการปรับแต่งโมเดลในอนาคต",
+	"chatMode.messageIDTip": "รหัสข้อความ",
+	"chatMode.parametersApi": "รับข้อมูลพารามิเตอร์แอปพลิเคชัน",
+	"chatMode.parametersApiTip": "ดึงพารามิเตอร์อินพุตที่กําหนดค่าไว้ รวมถึงชื่อตัวแปร ชื่อฟิลด์ ชนิด และค่าเริ่มต้น โดยทั่วไปจะใช้สําหรับแสดงฟิลด์เหล่านี้ในฟอร์มหรือกรอกค่าเริ่มต้นหลังจากโหลดไคลเอ็นต์",
+	"chatMode.queryTips": "เนื้อหาการป้อนข้อมูล/คําถามของผู้ใช้",
+	"chatMode.ratingTip": "ชอบหรือไม่ชอบ null คือเลิกทํา",
+	"chatMode.streaming": "การสตรีมกลับมา การใช้งานการส่งคืนการสตรีมตาม SSE (เหตุการณ์ที่ส่งโดยเซิร์ฟเวอร์)",
+	"chatMode.title": "API แอปแชท",
+	"completionMode.blocking": "ประเภทการบล็อก รอให้การดําเนินการเสร็จสมบูรณ์และส่งคืนผลลัพธ์ (คําขออาจถูกขัดจังหวะหากกระบวนการใช้เวลานาน)",
+	"completionMode.createCompletionApi": "สร้างข้อความเสร็จสมบูรณ์",
+	"completionMode.createCompletionApiTip": "สร้างข้อความเสร็จสิ้นเพื่อรองรับโหมดคําถามและคําตอบ",
+	"completionMode.info": "สําหรับการสร้างข้อความคุณภาพสูง เช่น บทความ บทสรุป และการแปล ให้ใช้ API ข้อความที่สมบูรณ์กับการป้อนข้อมูลของผู้ใช้ การสร้างข้อความอาศัยพารามิเตอร์โมเดลและเทมเพลตพร้อมท์ที่ตั้งค่าไว้ใน Dify Prompt Engineering",
+	"completionMode.inputsTips": "(ไม่บังคับ) ระบุฟิลด์อินพุตของผู้ใช้เป็นคู่คีย์-ค่า ซึ่งสอดคล้องกับตัวแปรใน Prompt Eng คีย์คือชื่อตัวแปร ค่าคือค่าพารามิเตอร์ ถ้าชนิดฟิลด์เป็น เลือก ค่าที่ส่งจะต้องเป็นหนึ่งในตัวเลือกที่ตั้งไว้ล่วงหน้า",
+	"completionMode.messageFeedbackApi": "ข้อความแสดงความคิดเห็น (ชอบ)",
+	"completionMode.messageFeedbackApiTip": "ให้คะแนนข้อความที่ได้รับในนามของผู้ใช้ปลายทางที่มีการชอบหรือไม่ชอบ ข้อมูลนี้สามารถมองเห็นได้ในหน้า Logs & Annotations และใช้สําหรับการปรับแต่งโมเดลในอนาคต",
+	"completionMode.messageIDTip": "รหัสข้อความ",
+	"completionMode.parametersApi": "รับข้อมูลพารามิเตอร์แอปพลิเคชัน",
+	"completionMode.parametersApiTip": "ดึงพารามิเตอร์อินพุตที่กําหนดค่าไว้ รวมถึงชื่อตัวแปร ชื่อฟิลด์ ชนิด และค่าเริ่มต้น โดยทั่วไปจะใช้สําหรับแสดงฟิลด์เหล่านี้ในฟอร์มหรือกรอกค่าเริ่มต้นหลังจากโหลดไคลเอ็นต์",
+	"completionMode.queryTips": "เนื้อหาข้อความที่ผู้ใช้ป้อน",
+	"completionMode.ratingTip": "ชอบหรือไม่ชอบ null คือเลิกทํา",
+	"completionMode.streaming": "การสตรีมกลับมา การใช้งานการส่งคืนการสตรีมตาม SSE (เหตุการณ์ที่ส่งโดยเซิร์ฟเวอร์)",
+	"completionMode.title": "API แอปที่สมบูรณ์",
+	copied,
+	copy,
+	"develop.noContent": "ไม่มีเนื้อหา",
+	"develop.pathParams": "พารามิเตอร์เส้นทาง",
+	"develop.query": "สอบถาม",
+	"develop.requestBody": "เนื้อหาคําขอ",
+	"develop.toc": "เนื้อหา",
+	disabled,
+	loading,
+	"merMaid.rerender": "ทําซ้ํา Rerender",
+	never,
+	ok,
+	pause,
+	play,
+	playing,
+	regenerate,
+	status
+};
+//#endregion
+export { apiKey, apiServer, copied, copy, app_api_default as default, disabled, loading, never, ok, pause, play, playing, regenerate, status };

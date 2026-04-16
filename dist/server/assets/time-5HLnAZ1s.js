@@ -1,0 +1,36 @@
+//#region i18n/de-DE/time.json
+var defaultPlaceholder = "Wähle eine Zeit...";
+var time_default = {
+	"dateFormats.display": "MMMM D, YYYY",
+	"dateFormats.displayWithTime": "MMMM D, YYYY hh:mm A",
+	"dateFormats.input": "YYYY-MM-DD",
+	"dateFormats.output": "YYYY-MM-DD",
+	"dateFormats.outputWithTime": "YYYY-MM-DDTHH:mm:ss.SSSZ",
+	"daysInWeek.Fri": "Freitag",
+	"daysInWeek.Mon": "Mon",
+	"daysInWeek.Sat": "Sat",
+	"daysInWeek.Sun": "Sonne",
+	"daysInWeek.Thu": "Donnerstag",
+	"daysInWeek.Tue": "Tue",
+	"daysInWeek.Wed": "Mittwoch",
+	defaultPlaceholder,
+	"months.April": "April",
+	"months.August": "August",
+	"months.December": "Dezember",
+	"months.February": "Februar",
+	"months.January": "Januar",
+	"months.July": "Juli",
+	"months.June": "Juni",
+	"months.March": "März",
+	"months.May": "Mai",
+	"months.November": "November",
+	"months.October": "Oktober",
+	"months.September": "September",
+	"operation.cancel": "Stornieren",
+	"operation.now": "Jetzt",
+	"operation.ok": "OK",
+	"operation.pickDate": "Datum auswählen",
+	"title.pickTime": "Wähle Zeit"
+};
+//#endregion
+export { time_default as default, defaultPlaceholder };

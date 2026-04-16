@@ -1,0 +1,1 @@
+import{S as e,c as t,j as n,o as r,p as i,t as a}from"./web-DLJX7gCi.js";var o=i(`<div style=height:100%>`);function s(i,s,c){let l=n(c);return t(()=>e(a,{mount:i,get children(){var t=o();return r(t,e(l,s)),t}}),i)}export{s as t};

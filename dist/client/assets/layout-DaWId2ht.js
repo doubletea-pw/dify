@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`साइडबार को बंद करें`,"sidebar.expandSidebar":`साइडबार विस्तार करें`};export{e as default};

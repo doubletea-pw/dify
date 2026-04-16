@@ -1,0 +1,1 @@
+import{n as e,t}from"./dist-Bb8SlEaz.js";var n=t({chatList:[],readonly:!1}),r=()=>e(n);export{r as n,n as t};

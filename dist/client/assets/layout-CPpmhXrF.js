@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`Restrângere bară laterală`,"sidebar.expandSidebar":`Extindeți bara laterală`};export{e as default};

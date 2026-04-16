@@ -1,0 +1,1 @@
+import{A as e}from"./cloneDeep-CjvU632K.js";function t(e){return Number.isSafeInteger(e)&&e>=0}function n(e){return e!=null&&typeof e!=`function`&&t(e.length)}function r(t){return typeof t==`object`&&!!t&&e(t)===`[object Arguments]`}export{n,r as t};

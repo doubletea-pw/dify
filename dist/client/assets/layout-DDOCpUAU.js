@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`사이드바 축소`,"sidebar.expandSidebar":`사이드바 확장`};export{e as default};

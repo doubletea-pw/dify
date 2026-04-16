@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`サイドバーを折りたたむ`,"sidebar.expandSidebar":`サイドバーを展開する`};export{e as default};

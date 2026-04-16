@@ -1,0 +1,1 @@
+import{n as e,t}from"./dist-Bb8SlEaz.js";var n=t({eventEmitter:null}),r=()=>e(n),i=function(e){return e.appFlow=`appFlow`,e.ragPipeline=`ragPipeline`,e}({}),a={[i.appFlow]:`apps`,[i.ragPipeline]:`rag/pipelines`},o=e=>a[e]||a[i.appFlow];export{r as i,i as n,n as r,o as t};

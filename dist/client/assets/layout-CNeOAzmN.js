@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`Zwiń pasek boczny`,"sidebar.expandSidebar":`Rozwiń pasek boczny`};export{e as default};

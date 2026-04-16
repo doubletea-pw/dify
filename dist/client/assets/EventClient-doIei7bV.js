@@ -1,0 +1,1 @@
+import{t as e}from"./plugin-BjE24yoW.js";var t=new class extends e{constructor(){super({pluginId:`form-devtools`,reconnectEveryMs:1e3})}};export{t};

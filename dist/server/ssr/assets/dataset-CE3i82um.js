@@ -1,0 +1,259 @@
+//#region i18n/pl-PL/dataset.json
+var allExternalTip = "W przypadku korzystania tylko z wiedzy zewnętrznej użytkownik może zdecydować, czy chce włączyć model Rerank. Jeśli ta opcja nie jest włączona, pobrane fragmenty będą sortowane na podstawie wyników. Gdy strategie wyszukiwania z różnych baz wiedzy są niespójne, będzie to niedokładne.";
+var allKnowledge = "Cała wiedza";
+var allKnowledgeDescription = "Wybierz tę opcję, aby wyświetlić całą wiedzę w tym obszarze roboczym. Tylko właściciel obszaru roboczego może zarządzać całą wiedzą.";
+var appCount = " powiązane aplikacje";
+var connectDataset = "Nawiązywanie połączenia z zewnętrzną bazą wiedzy";
+var createDataset = "Utwórz Wiedzę";
+var createDatasetIntro = "Zaimportuj własne dane tekstowe lub zapisuj dane w czasie rzeczywistym za pomocą Webhooka w celu wzmocnienia kontekstu LLM.";
+var createExternalAPI = "Dodawanie interfejsu API wiedzy zewnętrznej";
+var createFromPipeline = "Tworzenie na podstawie potoku wiedzy";
+var createNewExternalAPI = "Tworzenie nowego interfejsu API wiedzy zewnętrznej";
+var datasetDeleteFailed = "Nie udało się usunąć Wiedzy";
+var datasetDeleted = "Wiedza usunięta";
+var datasetUsedByApp = "Ta wiedza jest wykorzystywana przez niektóre aplikacje. Aplikacje nie będą już mogły korzystać z tej Wiedzy, a wszystkie konfiguracje podpowiedzi i logi zostaną trwale usunięte.";
+var datasets = "WIEDZA";
+var datasetsApi = "DOSTĘP DO API";
+var defaultRetrievalTip = "Pobieranie wielu ścieżek jest używane domyślnie. Wiedza jest pobierana z wielu baz wiedzy, a następnie ponownie klasyfikowana.";
+var deleteDatasetConfirmContent = "Usunięcie Wiedzy jest nieodwracalne. Użytkownicy nie będą już mieli dostępu do Twojej Wiedzy, a wszystkie konfiguracje i logi zostaną trwale usunięte.";
+var deleteDatasetConfirmTitle = "Czy na pewno usunąć tę Wiedzę?";
+var didYouKnow = "Czy wiedziałeś?";
+var docAllEnabled_one = "Dokument {{count}} włączony";
+var docAllEnabled_other = "Wszystkie dokumenty {{count}} włączone";
+var docsFailedNotice = "nie udało się zindeksować dokumentów";
+var documentCount = " dokumenty";
+var documentsDisabled = "{{num}} dokumenty wyłączone - nieaktywne przez ponad 30 dni";
+var editExternalAPIFormTitle = "Edytowanie interfejsu API wiedzy zewnętrznej";
+var editExternalAPITooltipTitle = "POWIĄZANA WIEDZA";
+var embeddingModelNotAvailable = "Model osadzający jest niedostępny.";
+var enable = "Umożliwiać";
+var externalAPI = "Zewnętrzny interfejs API";
+var externalAPIPanelDescription = "Interfejs API wiedzy zewnętrznej służy do łączenia się z bazą wiedzy poza Dify i pobierania wiedzy z tej bazy wiedzy.";
+var externalAPIPanelDocumentation = "Dowiedz się, jak utworzyć interfejs API wiedzy zewnętrznej";
+var externalAPIPanelTitle = "Interfejs API wiedzy zewnętrznej";
+var externalKnowledgeBase = "Zewnętrzna baza wiedzy";
+var externalKnowledgeDescription = "Opis wiedzy";
+var externalKnowledgeDescriptionPlaceholder = "Opisz, co znajduje się w tej bazie wiedzy (opcjonalnie)";
+var externalKnowledgeId = "Zewnętrzny identyfikator wiedzy";
+var externalKnowledgeIdPlaceholder = "Podaj identyfikator wiedzy";
+var externalKnowledgeName = "Nazwa wiedzy zewnętrznej";
+var externalKnowledgeNamePlaceholder = "Podaj nazwę bazy wiedzy";
+var externalTag = "Zewnętrzny";
+var inconsistentEmbeddingModelTip = "Model ponownego rankingu jest wymagany, jeśli modele osadzania wybranych baz wiedzy są niespójne.";
+var intro1 = "Wiedzę można zintegrować z aplikacją Dify ";
+var intro2 = "jako kontekst";
+var intro3 = ",";
+var intro4 = "lub ";
+var intro5 = "może być utworzona";
+var intro6 = " jako samodzielny wtyczka indeksująca ChatGPT do publikacji";
+var knowledge = "Wiedza";
+var learnHowToWriteGoodKnowledgeDescription = "Dowiedz się, jak napisać dobry opis wiedzy";
+var localDocs = "Lokalne dokumenty";
+var mixtureHighQualityAndEconomicTip = "Model ponownego rankingu jest wymagany dla mieszanki wysokiej jakości i ekonomicznych baz wiedzy.";
+var mixtureInternalAndExternalTip = "Model Rerank jest wymagany do połączenia wiedzy wewnętrznej i zewnętrznej.";
+var multimodal = "Multimodalny";
+var nTo1RetrievalLegacy = "Wyszukiwanie N-do-1 zostanie oficjalnie wycofane od września. Zaleca się korzystanie z najnowszego wyszukiwania wielościeżkowego, aby uzyskać lepsze wyniki.";
+var nTo1RetrievalLegacyLink = "Dowiedz się więcej";
+var nTo1RetrievalLegacyLinkText = "Wyszukiwanie N-do-1 zostanie oficjalnie wycofane we wrześniu.";
+var noExternalKnowledge = "Nie ma jeszcze interfejsu API wiedzy zewnętrznej, kliknij tutaj, aby utworzyć";
+var partialEnabled_one = "Łącznie {{count}} dokumentów, {{num}} dostępnych";
+var partialEnabled_other = "Łącznie {{count}} dokumentów, {{num}} dostępnych";
+var preprocessDocument = "{{num}} Przetwarzanie wstępne dokumentów";
+var rerankSettings = "Ustawienia ponownego rankingu";
+var retrievalSettings = "Ustawienia wyszukiwania";
+var retry = "Ponów";
+var unavailable = "Niedostępny";
+var unknownError = "Nieznany błąd";
+var updated = "Aktualizowano";
+var wordCount = " k słów";
+var dataset_default = {
+	allExternalTip,
+	allKnowledge,
+	allKnowledgeDescription,
+	appCount,
+	"batchAction.archive": "Archiwum",
+	"batchAction.cancel": "Anuluj",
+	"batchAction.delete": "Usunąć",
+	"batchAction.disable": "Wyłączać",
+	"batchAction.download": "Pobierz",
+	"batchAction.enable": "Umożliwiać",
+	"batchAction.reIndex": "Ponowna indeksacja",
+	"batchAction.selected": "Wybrany",
+	"chunkingMode.general": "Ogólne",
+	"chunkingMode.graph": "Wykres",
+	"chunkingMode.parentChild": "Rodzic-dziecko",
+	"chunkingMode.qa": "Pytania i odpowiedziQ&A",
+	connectDataset,
+	"connectDatasetIntro.content.end": ". Następnie znajdź odpowiedni identyfikator wiedzy i wypełnij go w formularzu po lewej stronie. Jeśli wszystkie informacje są poprawne, po kliknięciu przycisku połączenia automatycznie przejdzie do testu wyszukiwania w bazie wiedzy.",
+	"connectDatasetIntro.content.front": "Aby nawiązać połączenie z zewnętrzną bazą wiedzy, należy najpierw utworzyć zewnętrzny interfejs API. Przeczytaj uważnie i zapoznaj się z",
+	"connectDatasetIntro.content.link": "Dowiedz się, jak utworzyć zewnętrzny interfejs API",
+	"connectDatasetIntro.learnMore": "Dowiedz się więcej",
+	"connectDatasetIntro.title": "Jak połączyć się z zewnętrzną bazą wiedzy",
+	"connectHelper.helper1": "Połącz się z zewnętrznymi bazami wiedzy za pośrednictwem interfejsu API i identyfikatora bazy wiedzy. Obecnie",
+	"connectHelper.helper2": "Obsługiwana jest tylko funkcja pobierania",
+	"connectHelper.helper3": ". Zdecydowanie zalecamy, aby",
+	"connectHelper.helper4": "Zapoznaj się z dokumentacją pomocy",
+	"connectHelper.helper5": "ostrożnie przed użyciem tej funkcji.",
+	"cornerLabel.pipeline": "Rurociąg",
+	"cornerLabel.unavailable": "Niedostępne",
+	createDataset,
+	createDatasetIntro,
+	createExternalAPI,
+	createFromPipeline,
+	createNewExternalAPI,
+	datasetDeleteFailed,
+	datasetDeleted,
+	datasetUsedByApp,
+	datasets,
+	datasetsApi,
+	defaultRetrievalTip,
+	deleteDatasetConfirmContent,
+	deleteDatasetConfirmTitle,
+	"deleteExternalAPIConfirmWarningContent.content.end": "wiedza zewnętrzna. Usunięcie tego interfejsu API spowoduje unieważnienie ich wszystkich. Czy na pewno chcesz usunąć ten interfejs API?",
+	"deleteExternalAPIConfirmWarningContent.content.front": "Ten interfejs API wiedzy zewnętrznej jest połączony z",
+	"deleteExternalAPIConfirmWarningContent.noConnectionContent": "Czy na pewno chcesz usunąć ten interfejs API?",
+	"deleteExternalAPIConfirmWarningContent.title.end": "?",
+	"deleteExternalAPIConfirmWarningContent.title.front": "Usunąć",
+	didYouKnow,
+	docAllEnabled_one,
+	docAllEnabled_other,
+	docsFailedNotice,
+	documentCount,
+	documentsDisabled,
+	"editExternalAPIConfirmWarningContent.end": "wiedzy zewnętrznej, a ta modyfikacja zostanie zastosowana do nich wszystkich. Czy na pewno chcesz zapisać tę zmianę?",
+	"editExternalAPIConfirmWarningContent.front": "Ten interfejs API wiedzy zewnętrznej jest połączony z",
+	editExternalAPIFormTitle,
+	"editExternalAPIFormWarning.end": "Wiedza zewnętrzna",
+	"editExternalAPIFormWarning.front": "Ten zewnętrzny interfejs API jest powiązany z",
+	editExternalAPITooltipTitle,
+	embeddingModelNotAvailable,
+	enable,
+	externalAPI,
+	"externalAPIForm.apiKey": "Klucz API",
+	"externalAPIForm.cancel": "Anuluj",
+	"externalAPIForm.edit": "Redagować",
+	"externalAPIForm.encrypted.end": "Technologia.",
+	"externalAPIForm.encrypted.front": "Twój token API zostanie zaszyfrowany i będzie przechowywany za pomocą",
+	"externalAPIForm.endpoint": "Punkt końcowy interfejsu API",
+	"externalAPIForm.name": "Nazwa",
+	"externalAPIForm.save": "Zapisać",
+	externalAPIPanelDescription,
+	externalAPIPanelDocumentation,
+	externalAPIPanelTitle,
+	externalKnowledgeBase,
+	externalKnowledgeDescription,
+	externalKnowledgeDescriptionPlaceholder,
+	"externalKnowledgeForm.cancel": "Anuluj",
+	"externalKnowledgeForm.connect": "Połączyć",
+	"externalKnowledgeForm.connectedFailed": "Nie udało się połączyć z zewnętrzną bazą wiedzy",
+	"externalKnowledgeForm.connectedSuccess": "Zewnętrzna baza wiedzy została pomyślnie połączona",
+	externalKnowledgeId,
+	externalKnowledgeIdPlaceholder,
+	externalKnowledgeName,
+	externalKnowledgeNamePlaceholder,
+	externalTag,
+	"imageUploader.browse": "Przeglądaj",
+	"imageUploader.button": "Przeciągnij i upuść plik lub folder, lub",
+	"imageUploader.fileSizeLimitExceeded": "Rozmiar pliku przekracza limit {{size}} MB",
+	"imageUploader.tip": "{{supportTypes}} (maks. {{batchCount}}, {{size}} MB każdy)",
+	inconsistentEmbeddingModelTip,
+	"indexingMethod.full_text_search": "PEŁNY TEKST",
+	"indexingMethod.hybrid_search": "HYBRYDOWY",
+	"indexingMethod.invertedIndex": "ODWRÓCONY",
+	"indexingMethod.keyword_search": "SŁOWO KLUCZOWE",
+	"indexingMethod.semantic_search": "WEKTOR",
+	"indexingTechnique.economy": "EKO",
+	"indexingTechnique.high_quality": "WJ",
+	intro1,
+	intro2,
+	intro3: ",",
+	intro4,
+	intro5,
+	intro6,
+	knowledge,
+	learnHowToWriteGoodKnowledgeDescription,
+	localDocs,
+	"metadata.addMetadata": "Dodaj metadane",
+	"metadata.batchEditMetadata.applyToAllSelectDocument": "Zastosuj do wszystkich wybranych dokumentów",
+	"metadata.batchEditMetadata.applyToAllSelectDocumentTip": "Automatycznie utwórz wszystkie powyżej wymienione edytowane i nowe metadane dla wszystkich wybranych dokumentów, w przeciwnym razie edytowanie metadanych będzie dotyczyć tylko dokumentów, które je posiadają.",
+	"metadata.batchEditMetadata.editDocumentsNum": "Edycja {{num}} dokumentów",
+	"metadata.batchEditMetadata.editMetadata": "Edytuj metadane",
+	"metadata.batchEditMetadata.multipleValue": "Wielokrotna wartość",
+	"metadata.checkName.empty": "Nazwa metadanych nie może być pusta",
+	"metadata.checkName.invalid": "Nazwa metadanych może zawierać tylko małe litery, cyfry i podkreślenia oraz musi zaczynać się od małej litery",
+	"metadata.checkName.tooLong": "Nazwa metadanych nie może przekraczać {{max}} znaków",
+	"metadata.chooseTime": "Wybierz czas...",
+	"metadata.createMetadata.back": "Tył",
+	"metadata.createMetadata.name": "Imię",
+	"metadata.createMetadata.namePlaceholder": "Dodaj nazwę metadanych",
+	"metadata.createMetadata.title": "Nowe metadane",
+	"metadata.createMetadata.type": "Typ",
+	"metadata.datasetMetadata.addMetaData": "Dodaj metadane",
+	"metadata.datasetMetadata.builtIn": "Wbudowany",
+	"metadata.datasetMetadata.builtInDescription": "Wbudowane metadane są automatycznie ekstraktowane i generowane. Muszą być włączone przed użyciem i nie można ich edytować.",
+	"metadata.datasetMetadata.deleteContent": "Czy na pewno chcesz usunąć metadane \"{{name}}\"?",
+	"metadata.datasetMetadata.deleteTitle": "Potwierdź usunięcie",
+	"metadata.datasetMetadata.description": "Możesz zarządzać wszystkimi metadanymi w tej wiedzy tutaj. Modyfikacje będą synchronizowane z każdym dokumentem.",
+	"metadata.datasetMetadata.disabled": "Wyłączone",
+	"metadata.datasetMetadata.name": "Imię",
+	"metadata.datasetMetadata.namePlaceholder": "Nazwa metadanych",
+	"metadata.datasetMetadata.rename": "Zmień nazwę",
+	"metadata.datasetMetadata.values": "{{num}} Wartości",
+	"metadata.documentMetadata.documentInformation": "Informacje o dokumencie",
+	"metadata.documentMetadata.metadataToolTip": "Metadane służą jako istotny filtr, który zwiększa dokładność i trafność wyszukiwania informacji. Możesz modyfikować i dodawać metadane do tego dokumentu tutaj.",
+	"metadata.documentMetadata.startLabeling": "Rozpocznij etykietowanie",
+	"metadata.documentMetadata.technicalParameters": "Parametry techniczne",
+	"metadata.metadata": "Metadane",
+	"metadata.selectMetadata.manageAction": "Zarządzaj",
+	"metadata.selectMetadata.newAction": "Nowe metadane",
+	"metadata.selectMetadata.search": "Szukaj metadanych",
+	mixtureHighQualityAndEconomicTip,
+	mixtureInternalAndExternalTip,
+	multimodal,
+	nTo1RetrievalLegacy,
+	nTo1RetrievalLegacyLink,
+	nTo1RetrievalLegacyLinkText,
+	noExternalKnowledge,
+	"parentMode.fullDoc": "Pełna wersja dokumentu",
+	"parentMode.paragraph": "Akapit",
+	partialEnabled_one,
+	partialEnabled_other,
+	preprocessDocument,
+	rerankSettings,
+	"retrieval.change": "Zmień",
+	"retrieval.changeRetrievalMethod": "Zmień metodę odzyskiwania",
+	"retrieval.full_text_search.description": "Indeksowanie wszystkich terminów w dokumencie, umożliwiając użytkownikom wyszukiwanie dowolnego terminu i odzyskiwanie odpowiedniego fragmentu tekstu zawierającego te terminy.",
+	"retrieval.full_text_search.title": "Wyszukiwanie pełnotekstowe",
+	"retrieval.hybrid_search.description": "Wykonaj jednocześnie pełnotekstowe wyszukiwanie i wyszukiwanie wektorowe, ponownie porządkuj, aby wybrać najlepsze dopasowanie dla zapytania użytkownika. Konieczna jest konfiguracja API Rerank model.",
+	"retrieval.hybrid_search.recommend": "Polecany",
+	"retrieval.hybrid_search.title": "Wyszukiwanie hybrydowe",
+	"retrieval.invertedIndex.description": "Indeks odwrócony to struktura używana do efektywnego wyszukiwania. Zorganizowany według terminów, każdy termin wskazuje na dokumenty lub strony internetowe, które go zawierają.",
+	"retrieval.invertedIndex.title": "Indeks odwrócony",
+	"retrieval.keyword_search.description": "Inverted Index to struktura używana do efektywnego wyszukiwania. Uporządkowany według terminów, każdy termin wskazuje dokumenty lub strony internetowe, które go zawierają.",
+	"retrieval.keyword_search.title": "Odwrócony indeks",
+	"retrieval.semantic_search.description": "Generowanie osadzeń zapytań i wyszukiwanie fragmentów tekstu najbardziej podobnych do ich wektorowej reprezentacji.",
+	"retrieval.semantic_search.title": "Wyszukiwanie wektorowe",
+	retrievalSettings,
+	retry,
+	"selectExternalKnowledgeAPI.placeholder": "Wybieranie interfejsu API wiedzy zewnętrznej",
+	"serviceApi.card.apiKey": "Klucz API",
+	"serviceApi.card.apiReference": "Dokumentacja API",
+	"serviceApi.card.endpoint": "Punkt końcowy API usługi",
+	"serviceApi.card.title": "Usługa backendowa API",
+	"serviceApi.disabled": "Niepełnosprawny",
+	"serviceApi.enabled": "W serwisie",
+	"serviceApi.title": "Interfejs API usługi",
+	unavailable,
+	unknownError,
+	updated,
+	"weightedScore.customized": "Dostosowane",
+	"weightedScore.description": "Poprzez dostosowanie przypisanych wag, ta strategia ponownego rankingu określa, czy priorytetowo traktować dopasowanie semantyczne czy słów kluczowych.",
+	"weightedScore.keyword": "Słowo kluczowe",
+	"weightedScore.keywordFirst": "Najpierw słowa kluczowe",
+	"weightedScore.semantic": "Semantyczne",
+	"weightedScore.semanticFirst": "Najpierw semantyczne",
+	"weightedScore.title": "Ważona ocena",
+	wordCount
+};
+//#endregion
+export { allExternalTip, allKnowledge, allKnowledgeDescription, appCount, connectDataset, createDataset, createDatasetIntro, createExternalAPI, createFromPipeline, createNewExternalAPI, datasetDeleteFailed, datasetDeleted, datasetUsedByApp, datasets, datasetsApi, dataset_default as default, defaultRetrievalTip, deleteDatasetConfirmContent, deleteDatasetConfirmTitle, didYouKnow, docAllEnabled_one, docAllEnabled_other, docsFailedNotice, documentCount, documentsDisabled, editExternalAPIFormTitle, editExternalAPITooltipTitle, embeddingModelNotAvailable, enable, externalAPI, externalAPIPanelDescription, externalAPIPanelDocumentation, externalAPIPanelTitle, externalKnowledgeBase, externalKnowledgeDescription, externalKnowledgeDescriptionPlaceholder, externalKnowledgeId, externalKnowledgeIdPlaceholder, externalKnowledgeName, externalKnowledgeNamePlaceholder, externalTag, inconsistentEmbeddingModelTip, intro1, intro2, intro3, intro4, intro5, intro6, knowledge, learnHowToWriteGoodKnowledgeDescription, localDocs, mixtureHighQualityAndEconomicTip, mixtureInternalAndExternalTip, multimodal, nTo1RetrievalLegacy, nTo1RetrievalLegacyLink, nTo1RetrievalLegacyLinkText, noExternalKnowledge, partialEnabled_one, partialEnabled_other, preprocessDocument, rerankSettings, retrievalSettings, retry, unavailable, unknownError, updated, wordCount };

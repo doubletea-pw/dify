@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`Collapse Sidebar`,"sidebar.expandSidebar":`Expand Sidebar`};export{e as default};

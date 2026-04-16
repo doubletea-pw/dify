@@ -1,0 +1,1 @@
+import{ft as e}from"./index-CDJ7_sRu.js";import{n as t}from"./dist-DXs2xA0H.js";var n=()=>{let{theme:n,resolvedTheme:r,...i}=t();return{theme:n===e.system?r:n,...i}};export{n as t};

@@ -1,0 +1,1 @@
+var e=function(e){return e.none=`none`,e.failBranch=`fail-branch`,e.defaultValue=`default-value`,e}({});export{e as t};

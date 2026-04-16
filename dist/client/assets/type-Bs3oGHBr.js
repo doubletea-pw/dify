@@ -1,0 +1,1 @@
+var e=function(e){return e.Number=`number`,e.String=`string`,e.Boolean=`boolean`,e.Object=`object`,e.ArrayString=`array[string]`,e.ArrayNumber=`array[number]`,e.ArrayBoolean=`array[boolean]`,e.ArrayObject=`array[object]`,e}({});export{e as t};

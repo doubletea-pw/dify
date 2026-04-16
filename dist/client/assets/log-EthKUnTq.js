@@ -1,0 +1,1 @@
+import{l as e,r as t}from"./base-C1etq6ec.js";var n=({url:e,params:n})=>t(e,{params:n}),r=({url:t,body:n})=>e(t,{body:n}),i=({url:t,body:n})=>e(t,{body:n}),a=e=>t(e),o=({url:e})=>t(e),s=({appID:e,params:n})=>t(`/apps/${e}/agent/logs`,{params:n});export{i as a,o as i,n,r as o,a as r,s as t};

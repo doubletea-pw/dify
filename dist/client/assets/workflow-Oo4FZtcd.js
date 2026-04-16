@@ -1,0 +1,1 @@
+var e=function(e){return e.conversation=`conversation`,e.environment=`env`,e.node=`node`,e.system=`sys`,e}({});export{e as t};

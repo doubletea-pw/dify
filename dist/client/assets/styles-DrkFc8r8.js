@@ -1,0 +1,1 @@
+import{t as e}from"./framework-B6rTIEna.js";var t=e(),n=`base-ui-disable-scrollbar`,r={className:n,getElement(e){return(0,t.jsx)(`style`,{nonce:e,href:n,precedence:`base-ui:low`,children:`.${n}{scrollbar-width:none}.${n}::-webkit-scrollbar{display:none}`})}};export{r as t};

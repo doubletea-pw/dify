@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`Seitenleiste einklappen`,"sidebar.expandSidebar":`Seitenleiste erweitern`};export{e as default};

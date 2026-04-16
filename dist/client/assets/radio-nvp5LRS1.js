@@ -1,0 +1,5 @@
+import{s as e}from"./rolldown-runtime-C5c2KzVm.js";import{a as t,t as n}from"./framework-B6rTIEna.js";import{n as r,t as i}from"./dist-Bb8SlEaz.js";import{t as a}from"./classnames-CXDsUba7.js";var o=i(null),s={container:`_container_1vnf5_1`,label:`_label_1vnf5_6`},c=n();function l({children:e,value:t,onChange:n,className:r=``}){return(0,c.jsx)(`div`,{className:a(`flex items-center bg-workflow-block-parma-bg text-text-secondary`,s.container,r),children:(0,c.jsx)(o.Provider,{value:{value:t,onChange:e=>{n?.(e)}},children:e})})}var u=e(t(),1);function d({className:e=``,labelClassName:t,children:n=``,checked:i,value:l,disabled:d,onChange:f}){let p=r(o),m=(0,u.useId)(),h=e=>{d||(f?.(e),p?.onChange(e))},g=p?p.value===l:i;return(0,c.jsx)(`div`,{className:a(s.label,d?s.disabled:``,g?`bg-components-option-card-option-bg-hover shadow-xs`:``,`
+    flex items-center py-1 relative
+    px-7 cursor-pointer text-text-secondary rounded
+    hover:bg-components-option-card-option-bg-hover hover:shadow-xs
+  `,e),onClick:()=>h(l),children:!!n&&(0,c.jsx)(`label`,{className:a(t,`cursor-pointer text-sm`),id:m,children:n})})}var f=d;f.Group=l;export{f as t};

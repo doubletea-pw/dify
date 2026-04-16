@@ -64,14 +64,46 @@ export default defineConfig(({ mode }) => {
             exclude: ['@tanstack/react-query'],
           },
           server: {
+            host: '0.0.0.0',
             proxy: {
               '/console': {
-                target: 'http://aic.yoseok.cn',
+                // http://192.168.16.105:5001
+                target: 'http://192.168.16.105:5001',
                 changeOrigin: true,
+                cookieDomainRewrite: '',                  
+                onProxyRes(proxyRes) {
+                    const setCookie = proxyRes.headers['set-cookie'];
+                    if (setCookie) {
+                      // 2. 强力清洗：移除所有可能导致拒绝的属性
+                      const cleanCookies = setCookie.map(cookie => {
+                        return cookie
+                          .replace(/Domain=[^;]+(;|$)/i, 'Domain=127.0.0.1$1') // 强制指定本地域
+                          .replace(/Secure/gi, '')                           // HTTP环境下必须移除Secure
+                          .replace(/SameSite=(Strict|Lax|None)/gi, 'SameSite=Lax'); // 设为最稳妥的Lax
+                      });
+                      proxyRes.headers['set-cookie'] = cleanCookies;
+                    }
+                  }
               },
               '/api': {
-                target: 'http://aic.yoseok.cn',
+                target: 'http://192.168.16.105:5001',
                 changeOrigin: true,
+                secure: false,
+                timeout: 10000,
+                xfwd: true,
+                onProxyRes(proxyRes) {
+                  const setCookie = proxyRes.headers['set-cookie'];
+                  if (setCookie) {
+                    // 2. 强力清洗：移除所有可能导致拒绝的属性
+                    const cleanCookies = setCookie.map(cookie => {
+                      return cookie
+                        .replace(/Domain=[^;]+(;|$)/i, 'Domain=127.0.0.1$1') // 强制指定本地域
+                        .replace(/Secure/gi, '')                           // HTTP环境下必须移除Secure
+                        .replace(/SameSite=(Strict|Lax|None)/gi, 'SameSite=Lax'); // 设为最稳妥的Lax
+                    });
+                    proxyRes.headers['set-cookie'] = cleanCookies;
+                  }
+                }
               },
             },
             port: 3000,

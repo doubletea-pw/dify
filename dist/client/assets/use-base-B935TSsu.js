@@ -1,0 +1,1 @@
+import{s as e}from"./rolldown-runtime-C5c2KzVm.js";import{a as t}from"./framework-B6rTIEna.js";import{p as n}from"./useMutation-DbgAhgkI.js";var r=e(t(),1),i=e=>{let t=n();return(0,r.useCallback)(()=>{e&&t.invalidateQueries({queryKey:e})},[t,e])},a=e=>{let t=n();return(0,r.useCallback)(()=>{e&&t.resetQueries({queryKey:e})},[t,e])};export{a as n,i as t};

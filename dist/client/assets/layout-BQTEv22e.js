@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`Thu gọn thanh bên`,"sidebar.expandSidebar":`Mở rộng thanh bên`};export{e as default};

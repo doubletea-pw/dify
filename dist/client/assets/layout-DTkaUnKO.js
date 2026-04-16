@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`ยุบแถบด้านข้าง`,"sidebar.expandSidebar":`ขยายแถบด้านข้าง`};export{e as default};

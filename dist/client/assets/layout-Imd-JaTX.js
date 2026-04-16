@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`摺疊側邊欄`,"sidebar.expandSidebar":`展開側邊欄`};export{e as default};

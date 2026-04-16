@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`Strni stransko vrstico`,"sidebar.expandSidebar":`Razširi stransko vrstico`};export{e as default};

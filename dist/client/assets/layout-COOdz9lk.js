@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`Свернуть боковую панель`,"sidebar.expandSidebar":`Развернуть боковую панель`};export{e as default};

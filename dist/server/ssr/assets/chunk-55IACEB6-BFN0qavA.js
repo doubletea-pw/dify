@@ -1,0 +1,10 @@
+import { S as select_default } from "./src-BByrOQhU.js";
+import { n as __name } from "./src-Cs0BVng3.js";
+//#region node_modules/.pnpm/mermaid@11.13.0/node_modules/mermaid/dist/chunks/mermaid.core/chunk-55IACEB6.mjs
+var getDiagramElement = /* @__PURE__ */ __name((id, securityLevel) => {
+	let sandboxElement;
+	if (securityLevel === "sandbox") sandboxElement = select_default("#i" + id);
+	return (securityLevel === "sandbox" ? select_default(sandboxElement.nodes()[0].contentDocument.body) : select_default("body")).select(`[id="${id}"]`);
+}, "getDiagramElement");
+//#endregion
+export { getDiagramElement as t };

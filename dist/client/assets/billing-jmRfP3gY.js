@@ -1,0 +1,1 @@
+import{r as e}from"./base-C1etq6ec.js";var t=()=>e(`/features`),n=(t,n)=>e(`/billing/subscription?plan=${t}&interval=${n}`);export{n,t};

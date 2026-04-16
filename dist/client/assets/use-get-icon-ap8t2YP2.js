@@ -1,0 +1,1 @@
+import{s as e}from"./rolldown-runtime-C5c2KzVm.js";import{a as t}from"./framework-B6rTIEna.js";import{o as n}from"./index-CDJ7_sRu.js";import{a as r}from"./app-context-BADSw5HA.js";var i=e(t(),1),a=()=>{let e=r(e=>e.currentWorkspace);return{getIconUrl:(0,i.useCallback)(t=>`${n}/workspaces/current/plugin/icon?tenant_id=${e.id}&filename=${t}`,[e.id])}};export{a as t};

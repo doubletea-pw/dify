@@ -1,0 +1,1 @@
+var e={"sidebar.collapseSidebar":`Réduire la barre latérale`,"sidebar.expandSidebar":`Développer la barre latérale`};export{e as default};

@@ -1,0 +1,330 @@
+import { b as useTranslation } from "./floating-ui.utils.dom-B62kDwTz.js";
+import { t as IconBase } from "./IconBase-CEF_UoQI.js";
+import { n as useProviderContext } from "./provider-context-CToT0pwd.js";
+import { t as usage_info_default } from "./usage-info-T9FNDAad.js";
+import * as React$1 from "react";
+import { jsx } from "react/jsx-runtime";
+var AiText_default = {
+	icon: {
+		"type": "element",
+		"isRootNode": true,
+		"name": "svg",
+		"attributes": {
+			"width": "14",
+			"height": "14",
+			"viewBox": "0 0 14 14",
+			"fill": "none",
+			"xmlns": "http://www.w3.org/2000/svg"
+		},
+		"children": [{
+			"type": "element",
+			"name": "g",
+			"attributes": { "id": "ai-text" },
+			"children": [{
+				"type": "element",
+				"name": "path",
+				"attributes": {
+					"id": "Vector",
+					"d": "M2.33301 10.5H4.08301M2.33301 7H5.24967M2.33301 3.5H11.6663M9.91634 5.83333L10.7913 7.875L12.833 8.75L10.7913 9.625L9.91634 11.6667L9.04134 9.625L6.99967 8.75L9.04134 7.875L9.91634 5.83333Z",
+					"stroke": "currentColor",
+					"stroke-width": "1.25",
+					"stroke-linecap": "round",
+					"stroke-linejoin": "round"
+				},
+				"children": []
+			}]
+		}]
+	},
+	name: "AiText"
+};
+//#endregion
+//#region app/components/base/icons/src/vender/line/communication/AiText.tsx
+var Icon$5 = ({ ref, ...props }) => /* @__PURE__ */ jsx(IconBase, {
+	...props,
+	ref,
+	data: AiText_default
+});
+Icon$5.displayName = "AiText";
+var ChatBot_default = {
+	icon: {
+		"type": "element",
+		"isRootNode": true,
+		"name": "svg",
+		"attributes": {
+			"width": "14",
+			"height": "14",
+			"viewBox": "0 0 14 14",
+			"fill": "none",
+			"xmlns": "http://www.w3.org/2000/svg"
+		},
+		"children": [{
+			"type": "element",
+			"name": "g",
+			"attributes": {
+				"id": "Icon",
+				"clip-path": "url(#clip0_3167_27725)"
+			},
+			"children": [{
+				"type": "element",
+				"name": "path",
+				"attributes": {
+					"id": "Vector",
+					"d": "M5.93972 6.47002H2.2276C1.64161 6.47002 1.16699 6.94464 1.16699 7.53063V11.7731C1.16699 12.359 1.64161 12.8337 2.2276 12.8337H9.65184C10.2378 12.8337 10.7124 12.359 10.7124 11.7731V7.53063M3.81851 4.66693V3.2882M3.81851 3.2882C4.11139 3.2882 4.34881 3.05078 4.34881 2.7579C4.34881 2.46502 4.11139 2.2276 3.81851 2.2276C3.52563 2.2276 3.2882 2.46502 3.2882 2.7579C3.2882 3.05078 3.52563 3.2882 3.81851 3.2882ZM8.06093 1.6973C8.06093 1.40457 8.29851 1.16699 8.59123 1.16699H12.3034C12.5961 1.16699 12.8337 1.40457 12.8337 1.6973V4.34881C12.8337 4.64154 12.5961 4.87911 12.3034 4.87911H9.65184L8.06093 5.93972V1.6973Z",
+					"stroke": "currentColor",
+					"stroke-width": "1.25",
+					"stroke-linecap": "round",
+					"stroke-linejoin": "round"
+				},
+				"children": []
+			}, {
+				"type": "element",
+				"name": "g",
+				"attributes": { "id": "Vector_2" },
+				"children": [{
+					"type": "element",
+					"name": "path",
+					"attributes": {
+						"d": "M4.08354 9.65146C4.52286 9.65146 4.87899 9.29532 4.87899 8.856C4.87899 8.41668 4.52286 8.06055 4.08354 8.06055C3.64422 8.06055 3.28809 8.41668 3.28809 8.856C3.28809 9.29532 3.64422 9.65146 4.08354 9.65146Z",
+						"fill": "currentColor"
+					},
+					"children": []
+				}, {
+					"type": "element",
+					"name": "path",
+					"attributes": {
+						"d": "M7.79566 9.65146C8.23498 9.65146 8.59112 9.29532 8.59112 8.856C8.59112 8.41668 8.23498 8.06055 7.79566 8.06055C7.35634 8.06055 7.00021 8.41668 7.00021 8.856C7.00021 9.29532 7.35634 9.65146 7.79566 9.65146Z",
+						"fill": "currentColor"
+					},
+					"children": []
+				}]
+			}]
+		}, {
+			"type": "element",
+			"name": "defs",
+			"attributes": {},
+			"children": [{
+				"type": "element",
+				"name": "clipPath",
+				"attributes": { "id": "clip0_3167_27725" },
+				"children": [{
+					"type": "element",
+					"name": "rect",
+					"attributes": {
+						"width": "14",
+						"height": "14",
+						"fill": "white"
+					},
+					"children": []
+				}]
+			}]
+		}]
+	},
+	name: "ChatBot"
+};
+//#endregion
+//#region app/components/base/icons/src/vender/line/communication/ChatBot.tsx
+var Icon$4 = ({ ref, ...props }) => /* @__PURE__ */ jsx(IconBase, {
+	...props,
+	ref,
+	data: ChatBot_default
+});
+Icon$4.displayName = "ChatBot";
+var ChatBotSlim_default = {
+	icon: {
+		"type": "element",
+		"isRootNode": true,
+		"name": "svg",
+		"attributes": {
+			"width": "48",
+			"height": "48",
+			"viewBox": "0 0 48 48",
+			"fill": "none",
+			"xmlns": "http://www.w3.org/2000/svg"
+		},
+		"children": [{
+			"type": "element",
+			"name": "g",
+			"attributes": { "id": "chat-bot" },
+			"children": [{
+				"type": "element",
+				"name": "g",
+				"attributes": { "id": "Vector" },
+				"children": [{
+					"type": "element",
+					"name": "path",
+					"attributes": {
+						"d": "M13.0909 11.2727C14.0951 11.2727 14.9091 10.4587 14.9091 9.45455C14.9091 8.45039 14.0951 7.63636 13.0909 7.63636C12.0868 7.63636 11.2727 8.45039 11.2727 9.45455C11.2727 10.4587 12.0868 11.2727 13.0909 11.2727Z",
+						"fill": "currentColor"
+					},
+					"children": []
+				}, {
+					"type": "element",
+					"name": "path",
+					"attributes": {
+						"d": "M20.3636 22.1818H7.63636C5.62727 22.1818 4 23.8091 4 25.8182V40.3636C4 42.3727 5.62727 44 7.63636 44H33.0909C35.1 44 36.7273 42.3727 36.7273 40.3636V25.8182M13.0909 15.9998V11.2727M13.0909 11.2727C14.0951 11.2727 14.9091 10.4587 14.9091 9.45455C14.9091 8.45039 14.0951 7.63636 13.0909 7.63636C12.0868 7.63636 11.2727 8.45039 11.2727 9.45455C11.2727 10.4587 12.0868 11.2727 13.0909 11.2727ZM27.6364 5.81818C27.6364 4.81455 28.4509 4 29.4545 4H42.1818C43.1855 4 44 4.81455 44 5.81818V14.9091C44 15.9127 43.1855 16.7273 42.1818 16.7273H33.0909L27.6364 20.3636V5.81818Z",
+						"stroke": "currentColor",
+						"stroke-width": "2",
+						"stroke-linecap": "round",
+						"stroke-linejoin": "round"
+					},
+					"children": []
+				}]
+			}, {
+				"type": "element",
+				"name": "path",
+				"attributes": {
+					"id": "Vector_2",
+					"d": "M15.7275 30.364C15.7275 31.3179 14.9542 32.0913 14.0002 32.0913C13.0463 32.0913 12.2729 31.3179 12.2729 30.364C12.2729 29.41 13.0463 28.6367 14.0002 28.6367C14.9542 28.6367 15.7275 29.41 15.7275 30.364ZM28.4548 30.364C28.4548 31.3179 27.6814 32.0913 26.7275 32.0913C25.7735 32.0913 25.0002 31.3179 25.0002 30.364C25.0002 29.41 25.7735 28.6367 26.7275 28.6367C27.6814 28.6367 28.4548 29.41 28.4548 30.364Z",
+					"fill": "currentColor",
+					"stroke": "currentColor",
+					"stroke-width": "2"
+				},
+				"children": []
+			}]
+		}]
+	},
+	name: "ChatBotSlim"
+};
+//#endregion
+//#region app/components/base/icons/src/vender/line/communication/ChatBotSlim.tsx
+var Icon$3 = ({ ref, ...props }) => /* @__PURE__ */ jsx(IconBase, {
+	...props,
+	ref,
+	data: ChatBotSlim_default
+});
+Icon$3.displayName = "ChatBotSlim";
+var CuteRobot_default = {
+	icon: {
+		"type": "element",
+		"isRootNode": true,
+		"name": "svg",
+		"attributes": {
+			"width": "14",
+			"height": "14",
+			"viewBox": "0 0 14 14",
+			"fill": "none",
+			"xmlns": "http://www.w3.org/2000/svg"
+		},
+		"children": [{
+			"type": "element",
+			"name": "g",
+			"attributes": { "id": "cute-robot" },
+			"children": [{
+				"type": "element",
+				"name": "path",
+				"attributes": {
+					"id": "Vector",
+					"d": "M6.99967 2.33366H4.08301C3.43868 2.33366 2.91634 2.85599 2.91634 3.50033V6.41699C2.91634 7.06134 3.43868 7.58366 4.08301 7.58366H9.91634C10.5607 7.58366 11.083 7.06134 11.083 6.41699V3.50033C11.083 2.85599 10.5607 2.33366 9.91634 2.33366H6.99967ZM6.99967 2.33366V1.16699M3.49967 8.75033L2.33301 9.91699M3.49967 8.75033C3.49967 10.6833 5.06668 12.2503 6.99967 12.2503C8.93267 12.2503 10.4997 10.6833 10.4997 8.75033M3.49967 8.75033V7.58366M10.4997 8.75033L11.6663 9.91699M10.4997 8.75033V7.58366M5.24967 4.66699V5.25033M8.74967 4.66699V5.25033",
+					"stroke": "currentColor",
+					"stroke-width": "1.25",
+					"stroke-linecap": "round",
+					"stroke-linejoin": "round"
+				},
+				"children": []
+			}]
+		}]
+	},
+	name: "CuteRobot"
+};
+//#endregion
+//#region app/components/base/icons/src/vender/line/communication/CuteRobot.tsx
+var Icon$2 = ({ ref, ...props }) => /* @__PURE__ */ jsx(IconBase, {
+	...props,
+	ref,
+	data: CuteRobot_default
+});
+Icon$2.displayName = "CuteRobot";
+var MessageCheckRemove_default = {
+	icon: {
+		"type": "element",
+		"isRootNode": true,
+		"name": "svg",
+		"attributes": {
+			"width": "24",
+			"height": "24",
+			"viewBox": "0 0 24 24",
+			"fill": "none",
+			"xmlns": "http://www.w3.org/2000/svg"
+		},
+		"children": [{
+			"type": "element",
+			"name": "g",
+			"attributes": { "id": "message-check-remove" },
+			"children": [{
+				"type": "element",
+				"name": "path",
+				"attributes": {
+					"id": "Vector",
+					"d": "M15.2 2.99994H7.8C6.11984 2.99994 5.27976 2.99994 4.63803 3.32693C4.07354 3.61455 3.6146 4.07349 3.32698 4.63797C3 5.27971 3 6.11979 3 7.79994V13.9999C3 14.9299 3 15.3949 3.10222 15.7764C3.37962 16.8117 4.18827 17.6203 5.22354 17.8977C5.60504 17.9999 6.07003 17.9999 7 17.9999V20.3354C7 20.8683 7 21.1347 7.10923 21.2716C7.20422 21.3906 7.34827 21.4598 7.50054 21.4596C7.67563 21.4594 7.88367 21.293 8.29976 20.9601L10.6852 19.0518C11.1725 18.6619 11.4162 18.467 11.6875 18.3284C11.9282 18.2054 12.1844 18.1155 12.4492 18.0612C12.7477 17.9999 13.0597 17.9999 13.6837 17.9999H16.2C17.8802 17.9999 18.7202 17.9999 19.362 17.673C19.9265 17.3853 20.3854 16.9264 20.673 16.3619C21 15.7202 21 14.8801 21 13.1999V8.79994M12.3333 13.4999L14 10.4999H10L11.6667 7.49994M19.2322 4.76771L21 2.99994M21 2.99994L22.7678 1.23218M21 2.99994L19.2322 1.23218M21 2.99994L22.7678 4.76771",
+					"stroke": "currentColor",
+					"stroke-width": "2",
+					"stroke-linecap": "round",
+					"stroke-linejoin": "round"
+				},
+				"children": []
+			}]
+		}]
+	},
+	name: "MessageCheckRemove"
+};
+//#endregion
+//#region app/components/base/icons/src/vender/line/communication/MessageCheckRemove.tsx
+var Icon$1 = ({ ref, ...props }) => /* @__PURE__ */ jsx(IconBase, {
+	...props,
+	ref,
+	data: MessageCheckRemove_default
+});
+Icon$1.displayName = "MessageCheckRemove";
+var MessageFastPlus_default = {
+	icon: {
+		"type": "element",
+		"isRootNode": true,
+		"name": "svg",
+		"attributes": {
+			"width": "24",
+			"height": "24",
+			"viewBox": "0 0 24 24",
+			"fill": "none",
+			"xmlns": "http://www.w3.org/2000/svg"
+		},
+		"children": [{
+			"type": "element",
+			"name": "path",
+			"attributes": {
+				"d": "M15.2 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V14C3 14.93 3 15.395 3.10222 15.7765C3.37962 16.8117 4.18827 17.6204 5.22354 17.8978C5.60504 18 6.07003 18 7 18V20.3355C7 20.8684 7 21.1348 7.10923 21.2716C7.20422 21.3906 7.34827 21.4599 7.50054 21.4597C7.67563 21.4595 7.88367 21.2931 8.29976 20.9602L10.6852 19.0518C11.1725 18.662 11.4162 18.4671 11.6875 18.3285C11.9282 18.2055 12.1844 18.1156 12.4492 18.0613C12.7477 18 13.0597 18 13.6837 18H16.2C17.8802 18 18.7202 18 19.362 17.673C19.9265 17.3854 20.3854 16.9265 20.673 16.362C21 15.7202 21 14.8802 21 13.2V8.8M12.3333 13.5L14 10.5H10L11.6667 7.5M21 5V3M21 3V1M21 3H19M21 3H23",
+				"stroke": "currentColor",
+				"stroke-width": "2",
+				"stroke-linecap": "round",
+				"stroke-linejoin": "round"
+			},
+			"children": []
+		}]
+	},
+	name: "MessageFastPlus"
+};
+//#endregion
+//#region app/components/base/icons/src/vender/line/communication/MessageFastPlus.tsx
+var Icon = ({ ref, ...props }) => /* @__PURE__ */ jsx(IconBase, {
+	...props,
+	ref,
+	data: MessageFastPlus_default
+});
+Icon.displayName = "MessageFastPlus";
+var style_module_default = { textGradient: "_textGradient_1j0j6_1" };
+//#endregion
+//#region app/components/billing/annotation-full/usage.tsx
+var Usage = ({ className }) => {
+	const { t } = useTranslation();
+	const { plan } = useProviderContext();
+	const { usage, total } = plan;
+	return /* @__PURE__ */ jsx(usage_info_default, {
+		className,
+		Icon,
+		name: t("annotatedResponse.quotaTitle", { ns: "billing" }),
+		usage: usage.annotatedResponse,
+		total: total.annotatedResponse
+	});
+};
+var usage_default = React$1.memo(Usage);
+//#endregion
+export { Icon$3 as i, style_module_default as n, Icon$1 as r, usage_default as t };
